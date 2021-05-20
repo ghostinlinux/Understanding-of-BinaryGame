@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Binary Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="https://kit.fontawesome.com/53f311d580.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mycss.css">
+
+</head>
+
+<body>
+
+    <!-- FIRST PAGE HTML STARTING -->
+
+    <div class="titleScreen" id="titleScreen">
+        <center>
+            <div class="box">
+                <div class="content">
+                    <h1>Understanding</h1>
+                    <span>of</span>
+                    <h1>binary</h1>
+                </div>
+            </div>
+            <button onclick="play()">Play<i class="fas fa-caret-right"></i></button>
+        </center>
+        <p id="author">𝕭𝕪 ➤ 𝕿𝖍𝖊 𝖋𝖆𝖓𝖙𝖆𝖘𝖙𝖎𝖈 𝖋𝖔𝖚𝖗</p>
+
+    </div>
+
+    <!-- FIRST PAGE HTML END -->
+
+    <!-- Second page start  -->
+
+    <div class="mainScene" id="mainScene">
+
+
+        <div id="zerosOnes" class="reve">
+            <div class="block">
+                <span id="one" onclick="One()">0</span>
+                <span>1</span>
+            </div>
+
+            <div class="block">
+                <span id="two" onclick="Two()">0</span>
+                <span>2</span>
+            </div>
+
+            <div class="block">
+                <span id="three" onclick="Three()">0</span>
+                <span>4</span>
+            </div>
+
+            <div class="block">
+                <span id="four" onclick="Four()">0</span>
+                <span>8</span>
+            </div>
+
+            <div class="block">
+                <span id="five" onclick="Five()">0</span>
+                <span>16</span>
+            </div>
+
+            <div class="block">
+                <span id="six" onclick="Six()">0</span>
+                <span>32</span>
+            </div>
+
+            <div class="block">
+                <span id="seven" onclick="Seven()">0</span>
+                <span>64</span>
+            </div>
+
+
+            <div class="block">
+                <span id="eight" onclick="Eight()">0</span>
+                <span>128</span>
+            </div>
+        </div>
+        <i class="fas fa-angle-up" id="up"></i>
+        <p id="number">0</p>
+
+        <i class="fas fa-angle-down" id="down"></i>
+        <i class="fas fa-chevron-left" onclick="back()"></i>
+    </div>
+
+    <script src="myscripts.js"></script>
+</body>
+
+</html>
